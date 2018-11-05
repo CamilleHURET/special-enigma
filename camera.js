@@ -14,5 +14,9 @@ classifier.addImage(employee1Image2, 'employee1');classifier.addImage(employee1I
 classifier.addImage(employee1Image3, 'employee1');classifier.addImage(employee1Image3, 'employee1');
 classifier.addImage(employee2Image1, ‘employee2’);classifier.addImage(employee2Image1, ‘employee2’);
 classifier.addImage(employee2Image2, ‘employee2’);classifier.addImage(employee2Image2, ‘employee2’);
-view rawclassifier.train();
+classifier.addImage(happyexpressionImage1, ‘happyexpression’);classifier.addImage(happyexpressionImage1, ‘happyexpression’);
+classifier.addImage(happyexpressionImage2, ‘happyexpression’);classifier.addImage(happyexpressionImage2, ‘happyexpression’);
+
+
+classifier.train();
 
